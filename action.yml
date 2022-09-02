@@ -1,0 +1,15 @@
+name: 'npm-publish'
+description: 'Publish npm package'
+author: 'Conventional Actions'
+inputs:
+  version:
+    required: false
+    description: 'version of revive to use'
+    default: latest
+runs:
+  using: 'node16'
+  pre: 'dist/setup/index.js'
+  main: 'dist/main/index.js'
+branding:
+  icon: package
+  color: purple
