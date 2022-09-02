@@ -1,6 +1,6 @@
 # npm-publish
 
-A GitHub Action for running [revive](https://revive.run/).
+A GitHub Action for publishing NPM packages.
 
 ## Usage
 
