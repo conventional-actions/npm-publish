@@ -7,9 +7,8 @@ inputs:
     description: 'version of revive to use'
     default: latest
 runs:
-  using: 'node20'
-  pre: 'dist/setup/index.js'
-  main: 'dist/main/index.js'
+  using: 'node24'
+  main: 'dist/index.cjs'
 branding:
   icon: package
   color: purple
